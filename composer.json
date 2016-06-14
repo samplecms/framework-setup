@@ -1,0 +1,19 @@
+{
+	"name": "samplecms/framework-setup",
+    "type": "application",
+    "description" : "项目初始化",
+    "keywords": ["application", "framework"],
+    "license": "MIT", 
+    "require": {
+        "samplecms/framework": "dev-master",
+		"filp/whoops": "^2.1"
+    },
+    "autoload": {
+         "files":[
+            "./package/_function.php"
+        ],
+         "psr-4": {
+            "": "./"
+        } 
+    }
+}
